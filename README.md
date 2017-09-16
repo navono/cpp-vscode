@@ -5,4 +5,4 @@
 
 # VS Code插件
 - CMake
-- CMake tool
+- CMake Tools

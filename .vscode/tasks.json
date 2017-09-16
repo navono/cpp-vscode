@@ -9,6 +9,20 @@
       "command": "cmd",
       "args": [
         "/C", "build.bat"
+      ],
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    },
+    {
+      "taskName": "preMake",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/C", "mkdir build"
       ]
     },
     {
@@ -20,7 +34,14 @@
       },
       "args": [
         ".."
-      ]
+      ],
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "dependsOn" : ["preMake"]
     }
   ]
 }
