@@ -1,0 +1,313 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+            "name": "hello",
+            "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+            "targets": [
+              {
+                "artifacts": [
+                  "D:/Sourcecode/cppGitRepo/cpp-vscode/build/Debug/hello.exe",
+                  "D:/Sourcecode/cppGitRepo/cpp-vscode/build/Debug/hello.lib",
+                  "D:/Sourcecode/cppGitRepo/cpp-vscode/build/Debug/hello.pdb"
+                ],
+                "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  ",
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "helloCPP.cpp"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakelists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "hello.exe",
+                "linkFlags": "/machine:X86 /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+                "linkLibraries": "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "hello",
+                "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakelists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/d91c2c2e4c6ae533caf61d8466e60ca7/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Release",
+        "projects": [
+          {
+            "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+            "name": "hello",
+            "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+            "targets": [
+              {
+                "artifacts": [
+                  "D:/Sourcecode/cppGitRepo/cpp-vscode/build/Release/hello.exe",
+                  "D:/Sourcecode/cppGitRepo/cpp-vscode/build/Release/hello.lib",
+                  "D:/Sourcecode/cppGitRepo/cpp-vscode/build/Release/hello.pdb"
+                ],
+                "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  ",
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "helloCPP.cpp"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakelists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "hello.exe",
+                "linkFlags": "/machine:X86 /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
+                "linkLibraries": "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "hello",
+                "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakelists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/d91c2c2e4c6ae533caf61d8466e60ca7/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MinSizeRel",
+        "projects": [
+          {
+            "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+            "name": "hello",
+            "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+            "targets": [
+              {
+                "artifacts": [
+                  "D:/Sourcecode/cppGitRepo/cpp-vscode/build/MinSizeRel/hello.exe",
+                  "D:/Sourcecode/cppGitRepo/cpp-vscode/build/MinSizeRel/hello.lib",
+                  "D:/Sourcecode/cppGitRepo/cpp-vscode/build/MinSizeRel/hello.pdb"
+                ],
+                "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG  ",
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "helloCPP.cpp"
+                    ]
+                  },
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakelists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "hello.exe",
+                "linkFlags": "/machine:X86 /INCREMENTAL:NO /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+                "linkLibraries": "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "hello",
+                "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakelists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/d91c2c2e4c6ae533caf61d8466e60ca7/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RelWithDebInfo",
+        "projects": [
+          {
+            "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+            "name": "hello",
+            "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+            "targets": [
+              {
+                "artifacts": [
+                  "D:/Sourcecode/cppGitRepo/cpp-vscode/build/RelWithDebInfo/hello.exe",
+                  "D:/Sourcecode/cppGitRepo/cpp-vscode/build/RelWithDebInfo/hello.lib",
+                  "D:/Sourcecode/cppGitRepo/cpp-vscode/build/RelWithDebInfo/hello.pdb"
+                ],
+                "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakelists.txt"
+                    ]
+                  },
+                  {
+                    "compileFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  ",
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "helloCPP.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "hello.exe",
+                "linkFlags": "/machine:X86 /debug /INCREMENTAL /subsystem:console",
+                "linkLanguageFlags": "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+                "linkLibraries": "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+                "linkerLanguage": "CXX",
+                "name": "hello",
+                "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CMakelists.txt"
+                    ]
+                  }
+                ],
+                "fullName": "ALL_BUILD",
+                "name": "ALL_BUILD",
+                "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/d91c2c2e4c6ae533caf61d8466e60ca7/generate.stamp.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ZERO_CHECK",
+                "name": "ZERO_CHECK",
+                "sourceDirectory": "D:/Sourcecode/cppGitRepo/cpp-vscode",
+                "type": "UTILITY"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.4040087396221643",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}

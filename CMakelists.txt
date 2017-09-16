@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.9.0)
 project(hello)
-set(SOURCE helloworld.cpp)
+set(SOURCE helloCPP.cpp)
 add_executable(${PROJECT_NAME} ${SOURCE})

@@ -10,6 +10,17 @@
       "args": [
         "/C", "build.bat"
       ]
+    },
+    {
+      "taskName": "cmake",
+      "type": "shell",
+      "command": "cmake",
+      "options": {
+        "cwd": "${workspaceRoot}/build"
+      },
+      "args": [
+        ".."
+      ]
     }
   ]
 }
