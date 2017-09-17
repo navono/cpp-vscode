@@ -1,5 +1,5 @@
 {
   "git.ignoreLimitWarning": true,
-  "cmake.generator": "Visual Studio 15 2017",
-  "files.encoding": "gb2312"
+  "cmake.generator": "Visual Studio 15 2017"
+  // "files.encoding": "gb2312
 }
